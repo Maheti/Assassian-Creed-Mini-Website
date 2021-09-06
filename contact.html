@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="fontawesome-free-5.12.0-web/css/all.css" />
+  </head>
+  <script type="text/javascript">
+    function myFunction() {
+      alert("Thanks for leaving us a message...We will respond soon..!");
+    }
+    function sign() {
+      alert("Thanks for signing up. Stay tunned..!");
+    }
+  </script>
+  <body>
+    <div class="container-fluid backgroundAll">
+      <div class="row backgroundAll">
+        <div class="col-md-1">
+          <div class="row">
+            <div class="logo">
+              <img src="images/assassian_logo.jpg" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-11">
+          <ul class="nav nav-justified">
+            <li class="nav-item">
+              <a href="home.html" class="nav link active t mb-2 mt-1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav link mb-2 mt-1">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav link mb-2 mt-1">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav link mb-2 mt-1">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button
+                type="button"
+                class="btn btn-danger nav-link mb-2 mt-1"
+                data-toggle="modal"
+                data-target="#myModal"
+              >
+                Sign up
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row backgroundAll">
+        <div class="col-md-6 m-md-0 backgroundAll">
+          <div class="row">
+            <div class="col-md-12">
+              <br />
+              <h1 class="text-center mt-2 text-light mb-2 heading">
+                Leave a Message here..!!
+              </h1>
+              <br />
+              <form action="" method="post">
+                <div class="form-group row">
+                  <label for="nm" class="col-md-3 offset-md-1">
+                    <span class="font-weight-bold text-light msg"
+                      >UserName</span
+                    ></label
+                  >
+                  <div class="col-md-7">
+                    <input
+                      type="text"
+                      id="nm"
+                      placeholder="enter your name"
+                      required
+                      class="msg form-control text-light bg-dark"
+                    />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="email" class="col-md-3 offset-md-1">
+                    <span class="font-weight-bold text-light msg">
+                      Email
+                    </span></label
+                  >
+                  <div class="col-md-7">
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="enter your email "
+                      required
+                      class="form-control text-light bg-dark"
+                    />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="num" class="col-md-3 offset-md-1">
+                    <span class="font-weight-bold text-light msg"
+                      >Mobile</span
+                    ></label
+                  >
+                  <div class="col-md-7">
+                    <input
+                      id="num"
+                      type="number"
+                      minlenght="10"
+                      required
+                      class="form-control text-light bg-dark"
+                    />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="msg" class="col-md-3 offset-md-1">
+                    <span class="font-weight-bold text-light msg">
+                      Message</span
+                    ></label
+                  >
+                  <div class="col-md-7">
+                    <textarea
+                      required
+                      placeholder="enter your message"
+                      id="msg"
+                      class="form-control text-light bg-dark"
+                    ></textarea>
+                  </div>
+                </div>
+                <br />
+                <div class="form-group row">
+                  <input
+                    type="button"
+                    value="Submit "
+                    onclick="myFunction()"
+                    class="
+                      btn
+                      col-md-3
+                      offset-md-1
+                      text-light
+                      font-weight-bold
+                      btn btn-dark
+                    "
+                  />
+                  <input
+                    type="reset"
+                    class="
+                      col-md-3
+                      offset-md-1
+                      text-light
+                      font-weight-bold
+                      btn btn-dark
+                    "
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 m-md-0 backgroundAll">
+          <br />
+          <h1 class="text-center mt-2 text-light mb-2 heading">Contact</h1>
+          <br />
+          <div class="row">
+            <div class="col-md-12 backgroundAll text-justify contact_font">
+              <br />
+              <div class="text-light">
+                <a
+                  href="https://en.wikipedia.org/wiki/Assassin%27s_Creed_(video_game)"
+                  ><i class="fas fa-globe"></i
+                ></a>
+                Visit Us at: www.assassianscreed.com
+              </div>
+              <br />
+              <div class="text-light">
+                <i class="fas fa-1x fa-envelope-square"></i> Email:
+                assassian_creed@gmail.com
+              </div>
+              <br />
+              <div class="text-light">
+                <a
+                  href="https://www.instagram.com/assassinscreed_shots/?igshid=1rb3n2bzkwk9x"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                insta: assassianscreed_shots
+              </div>
+              <br />
+              <div class="text-light">
+                <a href="https://www.facebook.com/assassinscreed/"
+                  ><i class="fab fa-1x fa-facebook-square"></i
+                ></a>
+                fb: Assassian's creed
+              </div>
+              <br />
+              <div class="text-light">
+                <i class="fas fa-phone-square-alt"></i> Ph: 9888818418<br />
+                &nbsp &nbsp 9888818718
+              </div>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-md-12 backgroundAll">
+          <h1
+            class="
+              col-md-12
+              backgroundAll
+              text-center
+              mt-2
+              text-light
+              mb-2
+              heading
+            "
+            style="font-size: 60px"
+          >
+            ROUTE &nbsp MAP
+          </h1>
+        </div>
+      </div>
+      <div class="row backgroundAll">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.2856531424686!2d12.448330850018655!3d41.71435448352422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13259387b1d2b195%3A0xb7d1d4eacf7625c2!2sAssassin&#39;s%20Creed!5e0!3m2!1sen!2sin!4v1578045307043!5m2!1sen!2sin"
+          width="2000"
+          height="500"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+        ></iframe>
+      </div>
+      <br />
+      <div class="row backgroundAll">
+        <div class="col-md-12 text-center text-light asscreed">
+          <footer class="footer-distributed">
+            <div class="footer-left">
+              <img src="images/assassian_logo.jpg" />
+              <h3>Assassians Creed</h3>
+
+              <p class="footer-links">
+                <a href="home.html">Home</a>
+                |
+                <a href="https://assassinscreedblogs.tumblr.com/">Blog</a>
+                |
+                <a href="https://legal.ubi.com/privacypolicy/en-US">Privacy</a>
+                |
+                <a href="https://legal.ubi.com/termsofuse/en-US">Terms</a>
+              </p>
+            </div>
+
+            <div class="footer-center">
+              <div>
+                <i class="fas fa-globe"></i>
+                <p><span>www.assassianscreed.com</span></p>
+              </div>
+
+              <div>
+                <i class="fas fa-phone-square-alt"></i>
+                <p>+91 9888818418</p>
+              </div>
+              <div>
+                <i class="fas fa-1x fa-envelope-square"></i>
+                <p>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Assassin%27s_Creed_(video_game)"
+                    >assassian_creed@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="footer-right">
+              <p class="footer-company-about">
+                <span>About the company</span>
+                Play your way through history in the award-winning video game
+                series. Assassin's Creed immerses players in the memories of
+                ancestors, who are fighting for good at pivotal moments in human
+                history.
+              </p>
+              <div class="footer-icons">
+                <a href="https://www.facebook.com/assassinscreed/"
+                  ><i class="fab fa-1x fa-facebook-square"></i
+                ></a>
+                <a
+                  href="https://twitter.com/search?q=assassiancreed&src=typed_query"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/assassinscreed_shots/?igshid=1rb3n2bzkwk9x"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/company/linkedin"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/c/Ubisoft/search?query=assassian"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="row backgroundAll">
+        <div
+          class="col-md-12 text-center text-light backgroundAll"
+          style="font-size: 22px"
+        >
+          <b>&copy; &nbsp 2020 &nbsp | &nbsp All &nbsp Rights &nbsp Reserved</b>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-danger font-weight-bold">Sign up</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12">
+                    <form action="" method="post">
+                      <div class="form-group">
+                        <label for="emailid" class="font-weight-bold"
+                          >Enter your Email-id</label
+                        >
+                        <input
+                          id="emailid"
+                          type="email"
+                          placeholder="enter your email "
+                          class="form-control"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="pass" class="font-weight-bold"
+                          >Password</label
+                        >
+                        <input
+                          type="password"
+                          id="pass"
+                          placeholder="enter your password"
+                          class="form-control"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="cpass" class="font-weight-bold"
+                          >Confirm Password</label
+                        >
+                        <input
+                          type="password"
+                          id="cpass"
+                          placeholder="confirm your password"
+                          class="form-control"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label class="font-weight-bold">Country</label>
+                        <select class="form-control" required>
+                          <option value="" class="font-weight-bold">
+                            --Choose--
+                          </option>
+                          <option class="font-weight-bold">India</option>
+                          <option class="font-weight-bold">Russia</option>
+                          <option class="font-weight-bold">Canada</option>
+                          <option class="font-weight-bold">UK</option>
+                          <option class="font-weight-bold">Australia</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label class="font-weight-bold">Gender</label>
+                        <input
+                          type="radio"
+                          name="gender"
+                          checked
+                          class="font-weight-bold"
+                        />
+                        Male
+                        <input
+                          type="radio"
+                          id="gender"
+                          name="gender"
+                          class="font-weight-bold"
+                        />
+                        Female
+                      </div>
+                      <div class="form-group">
+                        <label class="font-weight-bold">Address</label>
+                        <textarea
+                          required
+                          placeholder="enter your address"
+                          class="form-control"
+                        ></textarea>
+                      </div>
+                      <br />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <input
+                type="button"
+                value="Submit"
+                onclick="sign()"
+                class="btn btn-danger"
+              />
+              <input type="reset" class="btn btn-danger" />
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
